@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{4EF45DDF-8471-4629-B50E-BF412941C69A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCrud.Api", "BasicCrud.Api\BasicCrud.Api.csproj", "{7FD9C427-29F9-45BA-A2B6-2F2C19FC39AB}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FD9C427-29F9-45BA-A2B6-2F2C19FC39AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FD9C427-29F9-45BA-A2B6-2F2C19FC39AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FD9C427-29F9-45BA-A2B6-2F2C19FC39AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FD9C427-29F9-45BA-A2B6-2F2C19FC39AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7FD9C427-29F9-45BA-A2B6-2F2C19FC39AB} = {4EF45DDF-8471-4629-B50E-BF412941C69A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4B47B289-0683-48BF-B9B8-3A8ACFFEA145}
